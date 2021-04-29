@@ -47,8 +47,8 @@ a probability (1 − q). Player 2, on the other hand, chooses
 to go into necrosis with a probability p and apoptosis with
 a probability 1 − p.
 
-| Payoff Matrix |f the Neutrophi| Game  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+|         |Necrosis (p), m: ITMs neutralized by granules pernecrotic neutrophil | Apoptosis (1 − q), n: ITMs neutralized by granules per apoptotic neutrophil |
+|:-------------:|:-------------:|:-----:|
+| Necrosis (p)        | right-aligned | $1600 |
+| 1             | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
