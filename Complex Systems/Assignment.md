@@ -8,7 +8,7 @@ In this assignment we are interested in two things: efficiency and robustness of
 
 - S = ρ * 10000 - (20N<sub>t</sub> + t / 10)
 
-In the file containing all stations, some are marked as 'critical'. These are important traffic hubs, which are vital for distributing the flow of passengers. The variable ρ in the score function is the fraction of critical stations that is serviced by at least 1 trajectory. N<sub>t</sub> is the total number of trajectories and t is the total service duration of all trajectories in minutes. We demonstrate the scroring system with an example schedule:
+In the file containing all stations, some are marked as 'critical'. These are important traffic hubs, which are vital for distributing the flow of passengers. The variable ρ in the score function is the fraction of critical stations that is serviced by at least 1 trajectory. N<sub>t</sub> is the total number of trajectories and t is the total service duration of all trajectories in minutes. We demonstrate the scoring system with an example schedule:
 
 The example schedule consists of 3 trajectories:
 - Den Haag Centraal - Leiden Centraal - Schiphol - Amsterdam Sloterdijk - Amsterdam Centraal - Almere - Lelystad | total 89 minutes
@@ -16,4 +16,3 @@ The example schedule consists of 3 trajectories:
 - Den Helder - Alkmaar - Hoorn - Zaandam - Beverwijk - Haarlem - Sloterdijk - Amsterdam Centraal - Amsterdam Amstel - Hilversum | total 180 minutes
 
 This schedule services 11 out of 23 critical stations, so ρ = 0.4783. This schedule would receive a score of S = 4783 - (60 + 44) = 4679. Of course you will find much better scoring schedules. Be warned however, finding the optimal solution (or even a good solution) is not trivial at all!
-
