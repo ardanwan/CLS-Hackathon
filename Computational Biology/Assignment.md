@@ -109,3 +109,6 @@ only the remaining ITMs in the Moore neighborhoud are considered. However, in th
 
 That's all! Build a model of the Neurophil game using the instructions. Play around with values for m, n, b, c, α and implement the two mechanisms for the remaining ITMs. Run simulations and visualize the results to make the model understandable for your audience. If you can, try to explain some of your results ([the original paper](https://github.com/ardanwan/CLS-Hackathon/blob/7fc7910922be301e3b683c560b9eca4668eac9ae/Computational%20Biology/Game%20of%20Neurophils.pdf) (Game of neutrophils: modeling the balance between apoptosis and necrosis) has detailed explanation of the biological processes and modelling choices).
 
+Inline-style: 
+![GoN Flow Diagram](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
