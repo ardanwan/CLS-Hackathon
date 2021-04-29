@@ -14,8 +14,9 @@ induce inflammation, an essential mechanism of the
 innate immune response. These ITMs are phagocytosed by active neutrophils or neutralized through the
 release of granules, depending on the nature of the
 ITMs. When inflammation is easily resolvable by the
-available population of immune cells at the site of inflammation, previously active neutrophils proceed to apoptosis
-. However, if the inflammation is too intense or persistent, such as in systemic inflammation where ITMs are
+available population of immune cells at the site of inflammation, previously active neutrophils proceed to apoptosis.
+
+However, if the inflammation is too intense or persistent, such as in systemic inflammation where ITMs are
 simultaneously originating from various sources in the
 body, neutrophils take on a dangerous death pathway
 called necrosis. Necrosis is a violent cell death that involves the rupture of the cell membrane, spilling out its
