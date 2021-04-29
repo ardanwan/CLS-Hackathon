@@ -1,6 +1,6 @@
 # Introduction
 
-Neutrophils[https://en.wikipedia.org/wiki/Neutrophil] play a crucial role in the human innate
+[Neutrophils](https://en.wikipedia.org/wiki/Neutrophil) play a crucial role in the human innate
 immune response. These human immune cells are not
 only the most abundant among immune cells, but also
 are the first to arrive at the sites of insult, where they
@@ -107,5 +107,5 @@ apoptosis given the initial concentration of ITMs
 Finally, we consider two mechanisms for calculating the cost of the remaining ITMs (e<sup>αITMS<sub>remaining</sub></sup>). In the local mechanism, 
 only the remaining ITMs in the Moore neighborhoud are considered. However, in the global mechanism the remaining ITMs of the whole system are taken into account.
 
-That's all! Build a model of the Neurophil game using the instructions. Play around with values for m, n, b, c, α and implement the two mechanisms for the remaining ITMs. Run simulations and visualize the results to make the model understandable for your audience. If you can, try to explain some of your results (the original paper has detailed explanation of the biological processes and modelling choices).
+That's all! Build a model of the Neurophil game using the instructions. Play around with values for m, n, b, c, α and implement the two mechanisms for the remaining ITMs. Run simulations and visualize the results to make the model understandable for your audience. If you can, try to explain some of your results ([the original paper](Computational Biology/Game of Neurophils.pdf) has detailed explanation of the biological processes and modelling choices).
 
