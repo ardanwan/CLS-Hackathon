@@ -86,4 +86,4 @@ decided based on a fitness comparison made by choosing
 either strategy. The payoff the activated neutrophil gets
 from playing with all its immediate neighbors is reduced
 by the cost of the remaining ITMs in the system. The fitness is given (though Mean-Field approximation) by
-F(q,p) = qpA + q(1-p)B + (1-q)pC + (1-q) x (1-p)De<sup>$\alpha$ITMS<sub>remaining</sub></sup>
+- F(q,p) = qpA + q(1-p)B + (1-q)pC + (1-q) x (1-p)De<sup>αITMS<sub>remaining</sub></sup>
