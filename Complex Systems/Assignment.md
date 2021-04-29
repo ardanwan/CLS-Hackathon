@@ -1,12 +1,7 @@
-# Assignment Complex Systems
-Complex systems is all about those unpredictable models. Hard to model, but
-often worth it. Although it is not straightforward to classify a complex system,
-we often see some of the following properties in a complex system:
+# Introduction
+Today we will look at a complex system that many of you will be very familiar with: the Dutch rail schedule. Optimal scheduling in large complex networks (such as our rail system) is notoriously hard. Networks like this have to be balanced between efficiency and robustness. We want our system to be as fast as possible, while also functioning when things go wrong.
 
-- non-linearity
-- self-organization
-- emergence
-- feedback loops
+# The Network
+This folder contains two csv files: one with the stations and their coordinates, the other with all connections and their respective durations. First, construct a visualization of the rail network with the stations as nodes and the right connections between them.
 
-Today we will take a closer look at [cascading failures](https://en.wikipedia.org/wiki/Cascading_failure),
-where one failing node can take down a whole network.
+# Assignment
