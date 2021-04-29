@@ -47,7 +47,7 @@ a probability (1 − q). Player 2, on the other hand, chooses
 to go into necrosis with a probability p and apoptosis with
 a probability 1 − p.
 
-| Payoff Matrix of the Neutrophil Game  |
+| Payoff Matrix |f the Neutrophi| Game  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
