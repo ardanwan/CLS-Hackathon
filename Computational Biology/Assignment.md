@@ -29,3 +29,26 @@ death pathway depends on the scale of the insult.
 The intricate details and the underlying mechanisms
 regarding the resolution of inflammation by neutrophils is
 still an active evolving field.
+
+# Assignment
+We're going to build the game of Neurophils using cellular automata and evolutionary game theory. The neutrophil game is a two-player game that utilizes one of the two strategies namely: necrosis or apoptosis.
+The payoffs for each pair of strategies are summarized in
+the table below. A row corresponds to the strategy played by
+player 1 and a column corresponds to the strategy played
+by player 2. The neutrophil game follows a mixed strategy
+game, meaning that we assign a probability for each strategy. This allows a player to probabilistically choose between apoptosis and necrosis. The rationale behind this
+choice is that the pathways leading to apoptosis or necrosis depend on a series of biochemical reactions in response
+to external stimuli and internal processes of the cell. All
+these processes are stochastic, so that a cell exposed to a
+given environment might take one pathway or the other
+with a certain probability. In our model, player 1 chooses
+to go into necrosis with a probability q and apoptosis with
+a probability (1 − q). Player 2, on the other hand, chooses
+to go into necrosis with a probability p and apoptosis with
+a probability 1 − p.
+
+| Payoff Matrix of the Neutrophil Game  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
