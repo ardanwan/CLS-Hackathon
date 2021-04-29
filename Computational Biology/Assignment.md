@@ -107,5 +107,5 @@ apoptosis given the initial concentration of ITMs
 Finally, we consider two mechanisms for calculating the cost of the remaining ITMs (e<sup>αITMS<sub>remaining</sub></sup>). In the local mechanism, 
 only the remaining ITMs in the Moore neighborhoud are considered. However, in the global mechanism the remaining ITMs of the whole system are taken into account.
 
-That's all! Build a model of the Neurophil game using the instructions. Play around with values for m, n, b, c, α and implement the two mechanisms for the remaining ITMs. Run simulations and visualize the results to make the model understandable for your audience. If you can, try to explain some of your results ([the original paper](Computational Biology/Game of Neurophils.pdf) has detailed explanation of the biological processes and modelling choices).
+That's all! Build a model of the Neurophil game using the instructions. Play around with values for m, n, b, c, α and implement the two mechanisms for the remaining ITMs. Run simulations and visualize the results to make the model understandable for your audience. If you can, try to explain some of your results ([the original paper](https://github.com/ardanwan/CLS-Hackathon/blob/7fc7910922be301e3b683c560b9eca4668eac9ae/Computational%20Biology/Game%20of%20Neurophils.pdf) has detailed explanation of the biological processes and modelling choices).
 
