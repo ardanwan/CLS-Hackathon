@@ -58,6 +58,9 @@ We specify the payoffs of the neutrophil game asfollows:
 - C = b<sub>Apoptosis</sub>
 - D = 2b<sub>Apoptosis</sub>
 
+When playing this game in a population, we can derive the avergae payoff of an individual thorugh Mean-Field approximation
+- F(q,p) = qpA + q(1-p)B + (1-q)pC + (1-q)(1-p)D- e<sup>αITMS<sub>remaining</sub></sup>
+
 First, we create an empty lattice of size 50 × 50. In our
 model, the entire lattice space is interpreted to correspond to a small portion of tissue. In order to model a
 bigger tissue that represents the entire body, we use
@@ -85,5 +88,4 @@ The choice of strategy of an activated neutrophil is
 decided based on a fitness comparison made by choosing
 either strategy. The payoff the activated neutrophil gets
 from playing with all its immediate neighbors is reduced
-by the cost of the remaining ITMs in the system. The fitness is given (though Mean-Field approximation) by
-- F(q,p) = qpA + q(1-p)B + (1-q)pC + (1-q) x (1-p)De<sup>αITMS<sub>remaining</sub></sup>
+by the cost of the remaining ITMs in the system. 
