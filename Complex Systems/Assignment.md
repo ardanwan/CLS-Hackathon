@@ -24,4 +24,4 @@ Here t<sub>additional</sub> is the additional time in minutes of the rerouted co
 
 That's all the instructions! Build your rail network and look for your most efficient and most robust networks. Try to make a top three of both and visualize them all. Visualize what happens when the two random connections drop out and the trains are rerouted. Are your most efficient schedules similar if you visualize them well? What about your most robust networks? And how do your efficient networks score in robustness and vice versa?
 
-[For more reading on networks & complex sytems](http://networksciencebook.com/chapter/2) (Not needed for the assignment)
+For more reading on [networks in complex sytems](http://networksciencebook.com/chapter/2) and [network robustness](http://networksciencebook.com/chapter/8#introduction8) (Not needed for the assignment)
