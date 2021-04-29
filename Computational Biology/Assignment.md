@@ -57,3 +57,33 @@ We specify the payoffs of the neutrophil game asfollows:
 - B = −c<sub>Necrosis</sub> + b<sub>Apoptosis</sub>
 - C = b<sub>Apoptosis</sub>
 - D = 2b<sub>Apoptosis</sub>
+
+First, we create an empty lattice of size 50 × 50. In our
+model, the entire lattice space is interpreted to correspond to a small portion of tissue. In order to model a
+bigger tissue that represents the entire body, we use
+periodic boundary conditions in our simulations. Additionally, since we assume a systemic inflammation,
+where ITMs are simultaneously originating from various
+sources in the body, we assume that the concentration
+of ITMs are equally distributed all over the simulated
+lattice. This follows that the distribution of the neutrophils
+in the tissue should also be homogenous. Hence, a single
+lattice site is occupied by a neutrophil entity, which, in the
+context of our model, refers to the neutrophil cell and the
+tissue the neutrophil occupies. The 50 × 50 lattice site,
+therefore, contains a total of 2500 neutrophils.
+
+ITMs are introduced homogenously by distributing
+the total ITM concentration equally in the lattice. In the
+simulation, this is simply calculated by assigning the
+concentration of ITMs to a global value that is neutralized at every time step.
+
+The algorithm commences by choosing an activated
+neutrophil randomly inside the 50 × 50 lattice that is initially filled with 2500 activated neutrophils. The chosen
+activated neutrophil plays the game based on the payoffs
+summarized in the above table with all of its immediate neighbors in a Moore neighborhood of range equal to 1.
+The choice of strategy of an activated neutrophil is
+decided based on a fitness comparison made by choosing
+either strategy. The payoff the activated neutrophil gets
+from playing with all its immediate neighbors is reduced
+by the cost of the remaining ITMs in the system. The fitness is given (though Mean-Field approximation) by
+F(q,p) = qpA + q(1-p)B + (1-q)pC + (1-q) x (1-p)De<sup>$\alpha$ITMS<sub>remaining</sub></sup>
