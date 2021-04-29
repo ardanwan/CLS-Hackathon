@@ -86,13 +86,22 @@ decided based on a fitness comparison made by choosing
 either strategy. The payoff the activated neutrophil gets
 from playing with all its immediate neighbors is reduced
 by the cost of the remaining ITMs in the system. The final pay-off that decides the startegy to adopt is thus
+
 - (Payoff from Neurophil game with all necrotic/apoptotic neighbours) - e<sup>αITMS<sub>remaining</sub></sup>
+
 When the payoff for going into apoptosis is exactly the
 same as deciding on necrosis, the activated neutrophil
 takes the apoptotic pathway. We model it this way
 because we assume that apoptosis is the default pathway
 that neutrophils take with or without inflammation. It is
 after all a type of programmed death that take place
-regardless of the intensity of inflammation
+regardless of the intensity of inflammation.
+
+The process for a single activated neutrophil choosing
+a strategy corresponds to a single iteration or time step
+in the algorithm. The same steps are done to all the
+activated neutrophils in the lattice. Hence, the algorithm
+stops when all activated neutrophils have picked a strategy. The outcome is a percentage of necrosis as well as
+apoptosis given the initial concentration of ITMs
 
 
