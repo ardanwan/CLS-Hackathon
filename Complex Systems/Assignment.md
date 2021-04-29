@@ -23,3 +23,5 @@ Besides finding an optimal score for our rail schedule, we also want to know how
 Here t<sub>additional</sub> is the additional time in minutes of the rerouted connections and N<sub>not-rerouted</sub> is the number of stations that cannot be rerouted at all. If multiple trajectories are rerouted on the same connection, they all contribute to the additional time. To compare different schedules, we cannot simply compare their penalty scores with random connections. To get a sense of the robustness we calculate the average penalty of two random connections cut and compare these scores.
 
 That's all the instructions! Build your rail network and look for your most efficient and most robust networks. Try to make a top three of both and visualize them all. Visualize what happens when the two random connections drop out and the trains are rerouted. Are your most efficient schedules similar if you visualize them well? What about your most robust networks? And how do your efficient networks score in robustness and vice versa?
+
+[For more reading on networks & complex sytems](http://networksciencebook.com/chapter/2) (Not needed for the assignment)
