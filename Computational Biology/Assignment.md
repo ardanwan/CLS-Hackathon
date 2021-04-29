@@ -58,9 +58,6 @@ We specify the payoffs of the neutrophil game asfollows:
 - C = b<sub>Apoptosis</sub>
 - D = 2b<sub>Apoptosis</sub>
 
-When playing this game in a population, we can derive the avergae payoff of an individual thorugh Mean-Field approximation
-- F(q,p) = qpA + q(1-p)B + (1-q)pC + (1-q)(1-p)D- e<sup>αITMS<sub>remaining</sub></sup>
-
 First, we create an empty lattice of size 50 × 50. In our
 model, the entire lattice space is interpreted to correspond to a small portion of tissue. In order to model a
 bigger tissue that represents the entire body, we use
