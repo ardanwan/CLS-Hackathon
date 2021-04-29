@@ -3,6 +3,9 @@ Today we will look at a complex system that many of you will be very familiar wi
 
 This folder contains two csv files: one with the stations and their coordinates, the other with all connections and their respective durations. First, construct a visualization of the rail network with the stations as nodes and the right connections between them.
 
+Example of a visualization of the railway network from the NS.
+![Example Visualization](https://github.com/ardanwan/CLS-Hackathon/blob/fe00d509c46e76b0bf0a1b71cb5cd99b2a9ed93c/Complex%20Systems/Example%20Rail%20Visualization.pdf)
+
 # Assignment
 In this assignment we are interested in two things: efficiency and robustness of our schedules. First you will attempt to find the most optimal schedule you can find. A schedule consists of up to 5 different trajectories, with a maximum duration of 3h per trajectory. Each station can only be visited once in each trajectory. The efficiency of the schedule is determined by a score function:
 
