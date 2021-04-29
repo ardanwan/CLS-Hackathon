@@ -104,4 +104,8 @@ activated neutrophils in the lattice. Hence, the algorithm
 stops when all activated neutrophils have picked a strategy. The outcome is a percentage of necrosis as well as
 apoptosis given the initial concentration of ITMs
 
+Finally, we consider two mechanisms for calculating the cost of the remaining ITMs (e<sup>αITMS<sub>remaining</sub></sup>). In the local mechanism, 
+only the remaining ITMs in the Moore neighborhoud are considered. However, in the global mechanism the remaining ITMs of the whole system are taken into account.
+
+That's all! Build a model of the Neurophil game using the instructions. Play around with values for m, n, b, c and α. Run simulations and visualize the results to make the model understandable for your audience. If you can, try to explain some of your results (just try to use logic, we don't expect you to be experts in this field).
 
