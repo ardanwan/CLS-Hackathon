@@ -48,7 +48,7 @@ to go into necrosis with a probability p and apoptosis with
 a probability 1 − p.
 
 | Pay-off Matrix | Necrosis (q), m: ITMs neutralized by granules pernecrotic neutrophil | Apoptosis (1 − q), n: ITMs neutralized by granules per apoptotic neutrophil |
-|:-----------------:|:----:|:-----:|
+|:-----------------:|:----:|:----:|
 | Necrosis (p)      | A, A | B, C |
 | Apoptosis (1 − p) | C, B | D, D |
 
