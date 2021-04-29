@@ -52,3 +52,8 @@ a probability 1 − p.
 | Necrosis (p)      | A, A | B, C |
 | Apoptosis (1 − p) | C, B | D, D |
 
+We specify the payoffs of the neutrophil game asfollows:
+A = −c<sup>Necrosis</sup>
+B = −cNecrosis þ bApoptosis
+C = bApoptosis
+D = 2bApoptosis
